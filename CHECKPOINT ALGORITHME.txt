@@ -1,0 +1,15 @@
+1. Initialiser longueur = 0
+2. Initialiser mots = 0
+3. Initialiser voyelles = 0
+4. Lire phrase
+5. Si phrase n'est pas vide, alors
+    a. Pour chaque caractère c dans phrase
+        i. longueur = longueur + 1
+        ii. Si c est une voyelle (a, e, i, o, u, A, E, I, O, U) alors
+            voyelles = voyelles + 1
+        iii. Si c est un espace alors
+            mots = mots + 1
+    b. mots = mots + 1 (pour le dernier mot avant le point)
+6. Afficher longueur
+7. Afficher mots
+8. Afficher voyelles
